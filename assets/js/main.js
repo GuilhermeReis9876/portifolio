@@ -170,6 +170,8 @@ const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
 const iconTheme = "uil-sun";
 
+localStorage.setItem("selected-theme", "dark");
+localStorage.setItem("selected-icon", "uil-moon");
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem("selected-theme");
 const selectedIcon = localStorage.getItem("selected-icon");
